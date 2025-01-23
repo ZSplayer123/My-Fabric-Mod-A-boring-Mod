@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":[
+    {
+      "item": "boring:black_diamond_block"
+    }
+  ],
+  "result": {
+    "item": "boring:black_diamond",
+    "count": 9
+  }
+}

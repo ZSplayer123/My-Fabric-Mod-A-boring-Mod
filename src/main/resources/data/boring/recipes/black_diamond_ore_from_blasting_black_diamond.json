@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": "100",
+  "experience": 15.0,
+  "group": "black_diamond",
+  "ingredient": {
+    "item": "boring:black_diamond_ore"
+  },
+  "result": "boring:black_diamond"
+}

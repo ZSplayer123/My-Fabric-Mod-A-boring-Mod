@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "B B",
+    "B B"
+  ],
+  "key": {
+    "B": {
+      "item": "boring:black_diamond"
+    }
+  },
+  "result": {
+    "item": "boring:black_diamond_leggings",
+    "count": 1
+  }
+}

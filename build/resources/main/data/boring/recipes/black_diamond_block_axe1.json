@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BB",
+    " SB",
+    " S "
+  ],
+  "key": {
+    "B": {
+      "item": "boring:black_diamond_block"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "boring:black_diamond_block_axe",
+    "count": 1
+  }
+}

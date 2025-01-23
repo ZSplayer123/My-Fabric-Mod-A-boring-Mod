@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": "200",
+  "experience": 15.0,
+  "group": "black_diamond",
+  "ingredient": {
+    "item": "boring:black_diamond_ore"
+  },
+  "result": "boring:black_diamond"
+}

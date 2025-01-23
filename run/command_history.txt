@@ -1,0 +1,9 @@
+/enchant Player891 boring:zbrnfql 255
+/setblock -158 255 76 minecraft:bedrock
+/tp -158 255 76
+/setblock -158 -255 76 minecraft:anvil
+/setblock -158 255 76 minecraft:anvil
+/setblock -159 255 76 minecraft:anvil
+/effect give Player891 minecraft:haste infinite 255
+/setblock -158 255 76 minecraft:anvil
+/effect give Player891 minecraft:haste infinite 255
