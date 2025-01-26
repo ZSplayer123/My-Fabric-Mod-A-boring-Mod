@@ -28,5 +28,7 @@
   "item.boring.black_diamond_ez_sword": "黑钻剑 ?",
   "item.boring.black_diamond_ez_axe": "黑钻斧 ?",
   "item.boring.black_diamond_ez_pickaxe": "黑钻镐 ?",
-  "item.boring.black_diamond_hammer": "黑钻锤"
+  "item.boring.black_diamond_hammer": "黑钻锤",
+  "item.boring_extra.multi_black_diamond_tool": "多功能黑钻工具",
+  "itemGroup.boring.item_group_extra": "一个无聊的模组-额外"
 }

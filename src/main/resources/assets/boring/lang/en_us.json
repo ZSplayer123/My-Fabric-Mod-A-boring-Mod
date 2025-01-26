@@ -28,5 +28,7 @@
   "item.boring.black_diamond_ez_sword": "Black Diamond Sword ?",
   "item.boring.black_diamond_ez_axe": "Black Diamond Axe ?",
   "item.boring.black_diamond_ez_pickaxe": "Black Diamond Pickaxe ?",
-  "item.boring.black_diamond_hammer": "Black Diamond Hammer"
+  "item.boring.black_diamond_hammer": "Black Diamond Hammer",
+  "item.boring_extra.multi_black_diamond_tool": "Multi Black Diamond Tool",
+  "itemGroup.boring.item_group_extra": "A Boring Mod Extra"
 }

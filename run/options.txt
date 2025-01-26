@@ -17,8 +17,8 @@ directionalAudio:false
 touchscreen:false
 fullscreen:false
 bobView:true
-toggleCrouch:false
-toggleSprint:false
+toggleCrouch:true
+toggleSprint:true
 darkMojangStudiosBackground:false
 hideLightningFlashes:false
 hideSplashTexts:false
@@ -47,7 +47,7 @@ renderClouds:"true"
 resourcePacks:["fabric"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:en_us
+lang:zh_cn
 soundDevice:""
 chatVisibility:0
 chatOpacity:1.0
@@ -55,7 +55,7 @@ chatLineSpacing:0.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0

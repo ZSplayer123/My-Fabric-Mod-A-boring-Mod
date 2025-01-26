@@ -1,13 +1,13 @@
 package com.example;
 
+
 import com.example.Item.Heart;
+import com.example.Multi.MultiBlackDiamondTool;
+import com.example.Multi.MultiBlackDiamondToolItem;
 import com.example.armor.BlackDiamondArmor;
 import com.example.enchantment.FLYenchantment;
 import com.example.enchantment.HealingEnchantment;
-import com.example.tool.BlackDiamondBlockTool;
-import com.example.tool.BlackDiamondEZTool;
-import com.example.tool.BlackDiamondTool;
-import com.example.tool.HealingTool;
+import com.example.tool.*;
 import net.fabricmc.api.ModInitializer;
 
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
@@ -35,6 +35,9 @@ import net.minecraft.world.gen.GenerationStep;
 import net.minecraft.world.gen.feature.PlacedFeature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.spongepowered.asm.util.Locals;
+
+import javax.tools.Tool;
 
 public class ExampleMod implements ModInitializer {
     public static final Logger LOGGER = LoggerFactory.getLogger("boring");
@@ -182,6 +185,15 @@ public class ExampleMod implements ModInitializer {
 					}));
 
 
+	//extra
+	public static final Item MULTI_BLACK_DIAMOND_TOOL =
+			Registry.register(Registries.ITEM,new Identifier("boring_extra","multi_black_diamond_tool"),
+					new MultiBlackDiamondToolItem(MultiBlackDiamondTool.MultiBlackDiamondTool,10f,0.25f,new FabricItemSettings()));
+
+
+
+
+
 	private static final ItemGroup ITEM_GROUP=
 			Registry.register(Registries.ITEM_GROUP,new Identifier("boring","item_group"),
 					FabricItemGroup.builder()
@@ -215,6 +227,17 @@ public class ExampleMod implements ModInitializer {
 								//ores
 								entries.add(BLACK_DIAMOND_ORE);
 								entries.add(DEEPSLATE_BLACK_DIAMOND_ORE);
+							})
+							.build());
+
+	private static final ItemGroup ITEM_GROUP_EXTRA=
+			Registry.register(Registries.ITEM_GROUP,new Identifier("boring","item_group_extra"),
+					FabricItemGroup.builder()
+							.icon(()->new ItemStack(MULTI_BLACK_DIAMOND_TOOL))
+							.displayName(Text.translatable("itemGroup.boring.item_group_extra"))
+							.entries((content,entries)->{
+								//extra
+								entries.add(MULTI_BLACK_DIAMOND_TOOL);
 							})
 							.build());
 

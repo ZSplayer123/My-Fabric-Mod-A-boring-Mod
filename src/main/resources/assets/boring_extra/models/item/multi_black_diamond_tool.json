@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "boring_extra:item/multi_black_diamond_tool"
+  }
+}

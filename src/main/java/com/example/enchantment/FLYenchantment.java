@@ -16,7 +16,12 @@ public class FLYenchantment extends Enchantment {
 
     @Override
     public int getMaxLevel() {
-        return 255;
+        return 5;
+    }
+
+    @Override
+    public int getMinLevel() {
+        return 1;
     }
 
     @Override

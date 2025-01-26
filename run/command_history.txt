@@ -7,3 +7,7 @@
 /effect give Player891 minecraft:haste infinite 255
 /setblock -158 255 76 minecraft:anvil
 /effect give Player891 minecraft:haste infinite 255
+/effect give Player818 minecraft:night_vision infinite 255
+/effect give Player818 minecraft:haste 99999 255
+/function rd_skyblock_is:cmd/start
+/effect clear

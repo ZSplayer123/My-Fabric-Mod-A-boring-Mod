@@ -7,7 +7,7 @@ import net.minecraft.recipe.Ingredient;
 import java.util.function.Supplier;
 
 public enum BlackDiamondBlockTool implements ToolMaterial {
-    BLACKDIAMONDBLOCKTOOL(6,8000,25.0f,7.0f,19,() -> Ingredient.ofItems(ExampleMod.BLACK_DIAMOND));
+    BLACKDIAMONDBLOCKTOOL(6,8000,25.0f,8.0f,19,() -> Ingredient.ofItems(ExampleMod.BLACK_DIAMOND));
 
     private final int miningLevel;
     private final int itemDurability;
@@ -48,4 +48,6 @@ public enum BlackDiamondBlockTool implements ToolMaterial {
     public Ingredient getRepairIngredient() {
         return this.repairIngredient.get();
     }
+
+
 }

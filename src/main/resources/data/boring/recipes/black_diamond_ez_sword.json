@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "K",
+    "S"
+  ],
+  "key": {
+    "B": {
+      "item": "boring:black_diamond_block"
+    },
+    "K": {
+      "item": "boring:black_diamond"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "boring:black_diamond_ez_sword",
+    "count": 1
+  }
+}
